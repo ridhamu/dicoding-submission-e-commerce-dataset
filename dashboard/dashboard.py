@@ -15,7 +15,7 @@ def main():
     )
 
     # Load the data
-    file_path = "./e_commerce.csv"
+    file_path = './dashboard/e_commerce.csv'
     df = load_data(file_path)
 
     # Sidebar to select the tab
